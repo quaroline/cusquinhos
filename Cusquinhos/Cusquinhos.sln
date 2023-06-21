@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cusquinhos.API", "Cusquinhos.API.csproj", "{FD8D1BD1-B979-40B0-AA39-3DC8F6ACC458}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Web API", "1 - Web API", "{E118A862-7680-492F-818E-5AAA16CCBFE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{BD0B7903-B448-400F-A64C-B43D1A0A8A20}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{183EE7A0-C98D-4009-A674-4E629BEB0FB6}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Shared", "4 - Shared", "{92D08286-A007-4232-97B2-9976792105EE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cusquinhos.Domain", "..\Cusquinhos.Domain\Cusquinhos.Domain.csproj", "{2C8C45A9-B957-40DA-89E1-FF116B4446AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cusquinhos.Shared", "..\Cusquinhos.Shared\Cusquinhos.Shared\Cusquinhos.Shared.csproj", "{306254F4-607B-4889-B41F-585440F10DE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD8D1BD1-B979-40B0-AA39-3DC8F6ACC458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8D1BD1-B979-40B0-AA39-3DC8F6ACC458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8D1BD1-B979-40B0-AA39-3DC8F6ACC458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8D1BD1-B979-40B0-AA39-3DC8F6ACC458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8C45A9-B957-40DA-89E1-FF116B4446AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8C45A9-B957-40DA-89E1-FF116B4446AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8C45A9-B957-40DA-89E1-FF116B4446AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8C45A9-B957-40DA-89E1-FF116B4446AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{306254F4-607B-4889-B41F-585440F10DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306254F4-607B-4889-B41F-585440F10DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306254F4-607B-4889-B41F-585440F10DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306254F4-607B-4889-B41F-585440F10DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD8D1BD1-B979-40B0-AA39-3DC8F6ACC458} = {E118A862-7680-492F-818E-5AAA16CCBFE2}
+		{2C8C45A9-B957-40DA-89E1-FF116B4446AE} = {BD0B7903-B448-400F-A64C-B43D1A0A8A20}
+		{306254F4-607B-4889-B41F-585440F10DE6} = {92D08286-A007-4232-97B2-9976792105EE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9610CAF1-1AEB-4DAB-AB5B-9949C5EE5D50}
+	EndGlobalSection
+EndGlobal
